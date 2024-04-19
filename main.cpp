@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//update from user1
+//update from john
 int main(){
 
   
