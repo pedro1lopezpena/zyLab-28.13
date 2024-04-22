@@ -48,7 +48,7 @@ int main(){
 	cout << "Enter the item quantity:" << endl;
 	cin >> item2_quantity;
 	item2.SetQuantity(item2_quantity);
-
+//Then after we gather all of the info for item 1 and item 2 we output the total cost of the items
 	cout << endl << "TOTAL COST" << endl;
 	cout << item1.GetName() << " " << item1.GetQuantity() << " @ $" << item1.GetPrice() << " = $" << item1.GetPrice() * item1.GetQuantity() << endl;
 	cout << item2.GetName() << " " << item2.GetQuantity() << " @ $" << item2.GetPrice() << " = $" << item2.GetPrice() * item2.GetQuantity() << endl << endl;
